@@ -17,7 +17,7 @@
 
 class Solution:
     def intersection(self, nums1: list[int], nums2: list[int]) -> list[int]:
-        pass
+        return list(set(nums1) & set(nums2))
 
 
 print(Solution().intersection([1, 2, 2, 1], [2, 2]))
